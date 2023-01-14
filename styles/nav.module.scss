@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  column-gap: 20px;
+  list-style-type: none;
+
+}
+
+.link {
+  color: #333;
+  text-decoration: none;
+  &:hover {
+    color: blue;
+  }
+}
